@@ -1,7 +1,9 @@
+Here is a simple flow chart:
+
 ```mermaid
-sequenceDiagram
-    participant Alice
-    participant Bob
-    Alice->>Bob: Hi Bob
-    Bob->>Alice: Hi Alice
-    ```
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
