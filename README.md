@@ -1,9 +1,7 @@
-Here is a simple flow chart:
-
+## 0.4: New note diagram
 ```mermaid
+
 sequenceDiagram
-    Alice->>John: Hello John, how are you?
-    Alice->>John: John, can you hear me?
-    John-->>Alice: Hi Alice, I can hear you!
-    John-->>Alice: I feel great!
-```
+    participant Browser
+    participant Server
+    ```
